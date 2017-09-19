@@ -1,0 +1,41 @@
+body {
+    background-color: #E9F5E0;
+}
+
+h1 {
+    text-align: center;
+    color: #2314FA;
+    padding-bottom: 250px;
+}
+
+.links_example {
+    margin-bottom: 800px;
+}
+
+ul>li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding-left: 100px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.link {
+    font-size: 18px;
+}
+
+div>p {
+    text-align: justify;
+}
+
+.textinf {
+    margin-bottom: 250px;
+}
+
+h3 {
+    color: #000000;
+    text-align: center;
+}
