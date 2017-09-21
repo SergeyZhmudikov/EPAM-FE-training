@@ -1,0 +1,63 @@
+    body {
+        font-size: 60px;
+    }
+    
+    div:nth-child(2n+0) {
+        color: red;
+    }
+    
+    div:nth-child(2n+1) {
+        color: green;
+    }
+    
+    div:nth-child(2n+6) {
+        text-decoration: underline;
+    }
+    
+    div:nth-child(n+5) {
+        text-transform: uppercase;
+    }
+    
+    div:nth-child(-n+4) {
+        text-transform: lowercase;
+    }
+    
+    div+div {
+        font-size: 90%;
+    }
+    
+    div+div+div {
+        font-size: 80%;
+    }
+    
+    div+div+div+div {
+        font-size: 70%;
+    }
+    
+    div+div+div+div+div {
+        font-size: 60%;
+    }
+    
+    div+div+div+div+div {
+        font-size: 50%;
+    }
+    
+    div+div+div+div+div+div {
+        font-size: 40%;
+    }
+    
+    div+div+div+div+div+div+div {
+        font-size: 30%;
+    }
+    
+    div+div+div+div+div+div+div+div {
+        font-size: 20%;
+    }
+    
+    div+div+div+div+div+div+div+div+div {
+        font-size: 10%;
+    }
+    
+    div+div+div+div+div+div+div+div+div+div {
+        font-size: 5%;
+    }
