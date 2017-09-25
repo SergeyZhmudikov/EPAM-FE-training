@@ -1,0 +1,63 @@
+.page {
+    width: 360px;
+    height: 460px;
+    font-family: Corbel;
+    background-color: #F5F5F5;
+    padding: 2px 2px 2px 5px;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+.datefield {
+    width: 230px;
+    margin-right: 15px;
+}
+
+.timefield {
+    width: 90px;
+}
+
+.head_event {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-left: 3px;
+}
+
+.name_event {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-left: 3px;
+}
+
+.From_text {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.To_text {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.error_label {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sframe {
+    position: relative;
+    left: 290px;
+}
+
+.buttonframe {
+    padding-bottom: 15px;
+}
+
+iframe {
+    border-style: ridge;
+    margin: 0px;
+    padding: 0px;
+}
