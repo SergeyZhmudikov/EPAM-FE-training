@@ -1,0 +1,65 @@
+.page {
+    width: 360px;
+    height: 420px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    padding: 2px 2px 2px 5px;
+}
+
+.someline {
+    opacity: 0.5;
+}
+
+.dateblock__datefield {
+    width: 230px;
+    margin-right: 15px;
+    border-bottom-color: red;
+}
+
+.dateblock__timefield {
+    width: 90px;
+    border-bottom-color: red;
+}
+
+.eventblock__head {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-left: 3px;
+}
+
+.eventblock__name {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.headertext__sometext {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.labeltext__error {
+    color: red;
+    font-size: 12px;
+}
+
+.goodbutton {
+    height: 90px;
+}
+
+.buttonframe_sframe {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.frameblock__down {
+    width: 360px;
+    height: 100px;
+    text-align: left;
+}
+
+.frameblock__box {
+    border-style: ridge;
+    margin: 0px;
+    padding: 0px;
+}
