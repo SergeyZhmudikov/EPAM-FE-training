@@ -9,21 +9,21 @@ function car(producer, model, year) {
 
 function Allroad(producer, model, year) {
     car.call(this, producer, model, year);
-    this.move = function() {
+    this.slowmove = function() {
         console.log(`This ${this.producer} ${this.model} ${this.year} can drive everywhere.`);
     }
 }
 
 function Sedan(producer, model, year) {
     car.call(this, producer, model, year);
-    this.move = function() {
+    this.fastmove = function() {
         console.log(`This ${this.producer} ${this.model} ${this.year} comfortable to drive in the highway.`);
     }
 }
 
 function StationWagon(producer, model, year) {
     car.call(this, producer, model, year);
-    this.move = function() {
+    this.averagemove = function() {
         console.log(`This ${this.producer} ${this.model} ${this.year} comfortable to transport the whole family.`);
     }
 }
@@ -31,12 +31,12 @@ function StationWagon(producer, model, year) {
 
 var FirstCar = new Allroad("Mercedes-Benz", "Gelendwagen", '2000');
 FirstCar.drive();
-FirstCar.move();
+FirstCar.slowmove();
 
 var SecondCar = new Sedan("Volkswagen", "Polo", '2015');
 SecondCar.drive();
-SecondCar.move();
+SecondCar.fastmove();
 
 var ThirdCar = new StationWagon("Volvo", "v90", '2017');
 ThirdCar.drive();
-ThirdCar.move();
+ThirdCar.averagemove();
